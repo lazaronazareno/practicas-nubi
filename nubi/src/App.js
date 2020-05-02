@@ -1,9 +1,10 @@
 import React from 'react';
-import Home from './components/home/home';
+import Calculadora from './components/calculadora/calculadora';
 
 function App() {
   return (
-   <Home/>
+   <Calculadora/>
+
   );
 }
 
