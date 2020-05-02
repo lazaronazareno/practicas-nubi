@@ -1,10 +1,10 @@
 import React from 'react';
-import Recargas from './components/recargas/recargas';
+import Header from './components/header/header';
 
 function App() {
   return (
-    <Recargas/>
-    );
+      <Header/>
+  );
 }
 
 export default App;
