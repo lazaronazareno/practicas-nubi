@@ -1,11 +1,10 @@
 import React from 'react';
-import Calculadora from './components/calculadora/calculadora';
+import Recargas from './components/recargas/recargas';
 
 function App() {
   return (
-   <Calculadora/>
-
-  );
+    <Recargas/>
+    );
 }
 
 export default App;
