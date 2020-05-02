@@ -1,0 +1,66 @@
+.container{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 205vh;
+}
+.secondContainer{
+  background-color: #eeeeee;
+  display: flex;
+  width: 205vh;
+  height: 71vh;
+}
+.thirdContainer{
+  background-color: white;
+  display: flex;
+  width: 205vh;
+  justify-content: space-evenly;
+}
+.content{
+  width: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.text{
+  z-index: 1;
+  font-family: 'Rubik';
+  text-align: center;
+  width: 44vh;
+  margin-bottom: 1vh;
+
+}
+.logo{
+  width: 44vh;
+  margin-top: 10vh;
+}
+.phone{
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+.containerSection{
+  display:flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  width: 100vh;
+  margin: 2vh;
+}
+.title{
+  color: #5481ff;
+  font-family: 'Rubik';
+  text-align: center;
+}
+.subTitle{
+  color:#214960;
+  font-family: 'Rubik';
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
