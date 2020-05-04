@@ -3,29 +3,26 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100vh;
-  width: 205vh;
 }
 
 .secondContainer {
+  background-image: url('../../assets/images/img_main_section_phone@2x.png');
   background-color: #eeeeee;
+  background-position: 115% 35%;
+  background-repeat: no-repeat;
   display: flex;
-  width: 205vh;
+  align-items: center;
+  flex-direction: column;
   height: 71vh;
+  width: 100%;
 }
 
 .thirdContainer {
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
-  width: 205vh;
-}
-
-.content {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  width: 150vh;
+  justify-content: space-between;
+  padding: 1.5vh;
+  width: 100%;
 }
 
 .text {
@@ -37,8 +34,8 @@
 }
 
 .logo {
-  margin-top: 10vh;
-  width: 44vh;
+  margin-top: 5vh;
+  width: 50vh;
 }
 
 .phone {
@@ -52,7 +49,6 @@
   background-color: #eeeeee;
   display:flex;
   flex-direction: column;
-  margin: 2vh;
   width: 100vh;
 }
 
