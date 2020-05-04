@@ -1,13 +1,15 @@
 import React from 'react';
-import styles from './styles.module.scss';
+
 import videoIcon from '../../../assets/images/ic_play.svg';
+
+import styles from './styles.module.scss';
 
 function VideoButton() {
   return (
-  <button className={styles.button}>
-     <img src={videoIcon} className={styles.video} alt="video"/>
-     <span>Mirá el video</span>
-  </button>
+    <button type="button" className={styles.button}>
+      <img src={videoIcon} className={styles.video} alt="video" />
+      <span>Mirá el video</span>
+    </button>
   );
 }
 

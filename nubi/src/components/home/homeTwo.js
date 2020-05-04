@@ -1,7 +1,9 @@
 import React from 'react';
-import styles from './styles.module.scss';
+
 import VideoButton from '../buttons/video/button';
 import AboutButton from '../buttons/about/button';
+
+import styles from './styles.module.scss';
 
 function HomeTwo() {
   return (
@@ -9,8 +11,8 @@ function HomeTwo() {
       <h1 className={styles.title}>Retiros PayPal</h1>
       <span className={styles.subTitle}>Vende con PayPal, retirá tu plata con Nubi</span>
       <div className={styles.buttons}>
-        <VideoButton/>
-        <AboutButton/>
+        <VideoButton />
+        <AboutButton />
       </div>
     </div>
   );
