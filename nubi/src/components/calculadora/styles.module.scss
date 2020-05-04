@@ -1,19 +1,22 @@
-.container{
+.container {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.secondContainer{
+
+.secondContainer {
   display: flex;
   margin: 10vh;
 }
-.smallContainer{
+
+.smallContainer {
   display: flex;
   flex-wrap: wrap;
   width: 60vh;
 }
-.title{
+
+.title {
   color:#214960;
   font-family: 'Roboto';
   margin: 5vh;
@@ -21,12 +24,14 @@
   font-size: 7vh;
   font-weight: 500;
 }
-.subTitle{
+
+.subTitle {
   color: #5481ff;
   font-family: 'Roboto';
   font-weight: 600;
 }
-.inputNumber{
+
+.inputNumber {
   width: 60vh;
   height: 10vh;
   border: none;
@@ -35,6 +40,7 @@
   opacity: 0.4;
   margin: 3vh;
 }
-.arrow{
+
+.arrow {
   margin: 10vh;
 }
