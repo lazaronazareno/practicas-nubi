@@ -7,10 +7,10 @@ function HomeTwo() {
   return (
     <div className={styles.containerSection}>
       <h1 className={styles.title}>Retiros PayPal</h1>
-      <p1 className={styles.subTitle}>Vende con PayPal, retirá tu plata con Nubi</p1>
+      <span className={styles.subTitle}>Vende con PayPal, retirá tu plata con Nubi</span>
       <div className={styles.buttons}>
-      <VideoButton/>
-      <AboutButton/>
+        <VideoButton/>
+        <AboutButton/>
       </div>
     </div>
   );

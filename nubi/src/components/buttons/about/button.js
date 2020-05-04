@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 function AboutButton() {
   return (
-   <button className={styles.button}><p1 className={styles.text}>Ver más</p1></button>
+   <button className={styles.button}>Ver más</button>
   );
 }
 
