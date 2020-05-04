@@ -1,9 +1,7 @@
 .container {
-  background-image: url('../../assets/images/bg_recargas2@2x.png');
-  background-size: 252vh;
-  width: 207vh;
+  background-image: url('../../assets/images/bg_recargas.png');
+  background-size: auto;
   height: 100vh;
-  background-position: center left;
 }
 
 .secondContainer {
@@ -13,8 +11,7 @@
   text-align: center;
   padding-left: 25vh;
   padding-top: 10vh;
-  width: 87vh;
-  height: 56vh;
+  width: 100vh;
 }
 
 .title {
@@ -42,9 +39,9 @@
 .imagesContainer {
   display: flex;
   flex-direction: row;
-  width: 131vh;
   flex-wrap: wrap-reverse;
-  margin-left: 26vh;
+  margin-left: 24vh;
+  margin-right: 55vh;
 }
 
 .imageContainer {
