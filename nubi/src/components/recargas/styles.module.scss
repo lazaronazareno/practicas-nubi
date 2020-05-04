@@ -1,11 +1,12 @@
-.container{
+.container {
   background-image: url('../../assets/images/bg_recargas2@2x.png');
   background-size: 252vh;
   width: 207vh;
   height: 100vh;
   background-position: center left;
 }
-.secondContainer{
+
+.secondContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,18 +16,21 @@
   width: 87vh;
   height: 56vh;
 }
-.title{
+
+.title {
   font-family: 'Roboto';
   font-style: italic;
   color: #214960;
   font-size: 6vh;
 }
-.text{
+
+.text {
   font-family: 'Roboto';
   color:#3e799b;
   font-size: 3vh;
 }
-.subTitle{
+
+.subTitle {
   margin-left: 26vh;
   margin-bottom: 2vh;
   font-size: 6vh;
@@ -34,22 +38,26 @@
   font-style: italic;
   color:#214960;
 }
-.imagesContainer{
+
+.imagesContainer {
   display: flex;
   flex-direction: row;
   width: 131vh;
   flex-wrap: wrap-reverse;
   margin-left: 26vh;
 }
-.imageContainer{
+
+.imageContainer {
   display: flex;
   height: 10vh;
 }
-.images{
+
+.images {
   width: max-content;
   height: 5vh;
 }
-.barra{
+
+.barra {
   opacity: 0.3;
   font-size: x-large;
   margin-top: 0vh;

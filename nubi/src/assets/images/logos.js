@@ -9,33 +9,15 @@ import carters from './img_logo_carters.png';
 import origin from './img_logo_origin.png';
 
 const logos = [
-  {src:airbnb,
-    title:"|"
-  },
-  {src:ebay,
-    title:"|"
-  },
-  {src:tiendamia,
-    title:"|"
-  },
-  {src:carters,
-    title:"|"
-  },
-  {src:origin,
-    title:"|"
-  },
-  {src:playstation,
-    title:"|"
-  },
-  {src:forever21,
-    title:"|"
-  },
-  {src:twitch,
-    title:"|"
-  },
-  {src:tripadvisor,
-    title:"|"
-  },
+  { src: airbnb, title: '|' },
+  { src: ebay, title: '|' },
+  { src: tiendamia, title: '|' },
+  { src: carters, title: '|' },
+  { src: origin, title: '|' },
+  { src: playstation, title: '|' },
+  { src: forever21, title: '|' },
+  { src: twitch, title: '|' },
+  { src: tripadvisor, title: '|' }
 ];
 
 export default logos;
