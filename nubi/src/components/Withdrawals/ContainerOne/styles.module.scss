@@ -1,15 +1,23 @@
 .cont1{
     width: 100%;
     height: 90vh;
-    
 }
-.fondo{
+.ContainerWithdrawals{
     width: 100%;
-    height: 85%;
-    background-position: center left;
+    height: 100%;
     position:absolute;
     right: 0px;
-    top:-1px
+    top:-1px;
+    background-position: center left;
+}
+
+
+.fondo{
+    width: 100%;
+    height: 85vh;
+   
+  
+
     
     
 }
