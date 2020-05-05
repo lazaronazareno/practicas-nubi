@@ -1,8 +1,9 @@
 import React from 'react';
+
 import styles from './styles.module.scss';
 
-function Sidebar(){
-  return(
+function Sidebar() {
+  return (
     <nav className={styles.menu}>
       <a className={styles.menuText}>Home</a>
       <a className={styles.menuText}>Recargas</a>
