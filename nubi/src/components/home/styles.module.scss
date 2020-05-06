@@ -1,3 +1,5 @@
+@import '../../constants/colors.scss';
+
 .container {
   background-color: white;
   display: flex;
@@ -7,7 +9,7 @@
 
 .secondContainer {
   background-image: url('../../assets/images/img_main_section_phone@2x.png');
-  background-color: #eeeeee;
+  background-color: $background-grey;
   background-position: 115% 35%;
   background-repeat: no-repeat;
   display: flex;
@@ -26,6 +28,7 @@
 }
 
 .text {
+  color: $title-darkblue;
   font-family: 'Rubik';
   margin-bottom: 1vh;
   text-align: center;
@@ -46,20 +49,20 @@
 }
 
 .containerSection {
-  background-color: #eeeeee;
+  background-color: $background-grey;
   display:flex;
   flex-direction: column;
   width: 100vh;
 }
 
 .title {
-  color: #5481ff;
+  color: $main-blue;
   font-family: 'Rubik';
   text-align: center;
 }
 
 .subTitle {
-  color:#214960;
+  color: $title-darkblue;
   font-family: 'Rubik';
   text-align: center;
 }

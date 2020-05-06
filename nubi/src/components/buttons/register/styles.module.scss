@@ -1,5 +1,7 @@
+@import '../../../constants/colors.scss';
+
 .button {
-  background-color: #5481ff;
+  background-color: $main-blue;
   border: none;
   border-radius: 5vh;
   color: white;
