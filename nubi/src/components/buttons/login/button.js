@@ -4,11 +4,9 @@ import styles from './styles.module.scss';
 
 function LoginButton() {
   return (
-    <div className={styles.container}>
-      <button type="button" className={styles.button}>
-        INICIAR SESIÓN
-      </button>
-    </div>
+    <button type="button" className={styles.button}>
+      INICIAR SESIÓN
+    </button>
   );
 }
 

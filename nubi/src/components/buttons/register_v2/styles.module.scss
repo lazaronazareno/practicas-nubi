@@ -1,17 +1,10 @@
+@import '../../../constants/colors.module.scss';
+
 .button {
+  background-color: inherit;
   border: none;
-  color: #5481ff;
+  color: $main-blue;
   border-radius: 5vh;
   width: 30vh;
   height: 6vh;
-}
-
-.text {
-  font-family: 'Roboto';
-}
-
-.container {
-  display: flex;
-  width: 33vh;
-  justify-content: center;
 }

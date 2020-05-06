@@ -1,24 +1,19 @@
+@import '../../../constants/colors.module.scss';
+
 .burger {
-  top: 3vh;
-  left: 2vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 10vh;
-  height: 5vh;
-  background: transparent;
+  height: 6vh;
+  background: inherit;
   border: none;
-  padding: 0;
   align-items: center;
-  
-  &:focus {
-    outline: none;
-}
 }
 
 .burgerContent {
   width: 5vh;
   height: 1vh;
   border-radius: 1vh;
-  background-color: #5481ff;
+  background-color: $main-blue;
 }

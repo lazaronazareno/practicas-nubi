@@ -1,5 +1,7 @@
+@import '../../../constants/colors.module.scss';
+
 .button {
-  background-color: #5481ff;
+  background-color: $main-blue;
   border: none;
   color: white;
   border-radius: 5vh;
@@ -7,12 +9,3 @@
   height: 6vh;
 }
 
-.text {
-  font-family: 'Roboto';
-}
-
-.container {
-  display: flex;
-  width: 33vh;
-  justify-content: center;
-}
