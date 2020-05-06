@@ -1,3 +1,5 @@
+@import '../../constants/colors.module.scss';
+
 .container {
   text-align: center;
   display: flex;
@@ -5,19 +7,18 @@
   align-items: center;
 }
 
-.secondContainer {
+.subContainer {
   display: flex;
   margin: 10vh;
 }
 
 .smallContainer {
   display: flex;
-  flex-wrap: wrap;
   width: 60vh;
 }
 
 .title {
-  color:#214960;
+  color: $title-darkblue;
   font-family: 'Roboto';
   margin: 5vh;
   font-style: italic;
@@ -26,7 +27,7 @@
 }
 
 .subTitle {
-  color: #5481ff;
+  color: $main-blue;
   font-family: 'Roboto';
   font-weight: 600;
 }
@@ -35,7 +36,7 @@
   width: 60vh;
   height: 10vh;
   border: none;
-  border-bottom: 0.5vh solid #5481ff;
+  border-bottom: 0.5vh solid $main-blue;
   font-size: 10vh;
   opacity: 0.4;
   margin: 3vh;

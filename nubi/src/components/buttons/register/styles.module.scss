@@ -1,14 +1,10 @@
+@import '../../../constants/colors.module.scss';
+
 .button {
-  background-color: #5481ff;
+  background-color: $main-blue;
   border: none;
   color: white;
   border-radius: 5vh;
   width: 30vh;
   height: 6vh;
-}
-
-.container {
-  display: flex;
-  width: 44vh;
-  justify-content: center;
 }

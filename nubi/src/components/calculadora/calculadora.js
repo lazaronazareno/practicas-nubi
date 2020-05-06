@@ -9,7 +9,7 @@ function Calculadora() {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Calculá tu retiro o recarga</h2>
-      <div className={styles.secondContainer}>
+      <div className={styles.subContainer}>
         <div className={styles.smallContainer}>
           <form>
             <input className={styles.inputNumber} type="number" placeholder="0" id="inicio" />
