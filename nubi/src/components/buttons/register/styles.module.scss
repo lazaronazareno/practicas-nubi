@@ -1,4 +1,4 @@
-@import '../../../constants/colors.scss';
+@import '../../../constants/colors.module.scss';
 
 .button {
   background-color: $main-blue;
@@ -7,10 +7,4 @@
   color: white;
   height: 6vh;
   width: 30vh;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  width: 44vh;
 }

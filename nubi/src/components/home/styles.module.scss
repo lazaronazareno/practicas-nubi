@@ -1,4 +1,4 @@
-@import '../../constants/colors.scss';
+@import '../../constants/colors.module.scss';
 
 .container {
   background-color: white;
@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.secondContainer {
+.subContainerOne {
   background-image: url('../../assets/images/img_main_section_phone@2x.png');
   background-color: $background-grey;
   background-position: 115% 35%;
@@ -19,7 +19,7 @@
   width: 100%;
 }
 
-.thirdContainer {
+.subContainerTwo {
   background-color: white;
   display: flex;
   justify-content: space-between;

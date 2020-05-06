@@ -5,11 +5,11 @@ import AboutButton from '../buttons/about/button';
 
 import styles from './styles.module.scss';
 
-function HomeThree() {
+function RetirePayPal() {
   return (
     <div className={styles.containerSection}>
-      <h1 className={styles.title}>Recargas PayPal</h1>
-      <span className={styles.subTitle}>Recargá plata con Nubi, comprá con PayPal</span>
+      <h1 className={styles.title}>Retiros PayPal</h1>
+      <span className={styles.subTitle}>Vende con PayPal, retirá tu plata con Nubi</span>
       <div className={styles.buttons}>
         <VideoButton />
         <AboutButton />
@@ -18,4 +18,4 @@ function HomeThree() {
   );
 }
 
-export default HomeThree;
+export default RetirePayPal;
