@@ -1,39 +1,40 @@
+@import '../../constants/colors.module.scss';
+
 .container {
   background-image: url('../../assets/images/bg_recargas.png');
   background-size: auto;
   height: 100vh;
 }
 
-.secondContainer {
+.subContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 25vh;
-  padding-top: 10vh;
+  padding: 10vh 20vh;
   width: 100vh;
 }
 
 .title {
   font-family: 'Roboto';
   font-style: italic;
-  color: #214960;
+  color: $title-darkblue;
   font-size: 6vh;
 }
 
 .text {
   font-family: 'Roboto';
-  color:#3e799b;
+  color: $title-darkblue;
   font-size: 3vh;
+  margin: 3vh 6vh;
 }
 
 .subTitle {
-  margin-left: 26vh;
-  margin-bottom: 2vh;
-  font-size: 6vh;
+  color: $title-darkblue;
   font-family: 'Roboto';
   font-style: italic;
-  color:#214960;
+  font-size: 6vh;
+  margin: 2vh 26vh;
 }
 
 .imagesContainer {
@@ -50,7 +51,6 @@
 }
 
 .images {
-  width: max-content;
   height: 5vh;
 }
 

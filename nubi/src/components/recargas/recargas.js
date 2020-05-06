@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 function Recargas() {
   return (
     <div className={styles.container}>
-      <div className={styles.secondContainer}>
+      <div className={styles.subContainer}>
         <h1 className={styles.title}> Recargá tu cuenta PayPal</h1>
         <h2 className={styles.text}>
           Con Nubi agregá dinero a tu cuneta PayPal desde tu banco y comprá en todo el mundo sin tarjeta de
@@ -20,6 +20,7 @@ function Recargas() {
       <h1 className={styles.subTitle}>Ahorrá en tus compras online</h1>
       <div className={styles.imagesContainer}>
         {logos.map(({ src, title }) => (
+          // eslint-disable-next-line react/jsx-key
           <div className={styles.imageContainer}>
             <img className={styles.images} src={src} alt="logo" />
             <h1 className={styles.barra}>{title}</h1>
