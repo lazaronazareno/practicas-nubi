@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  color: #5481ff;
+  border-radius: 5vh;
+  width: 30vh;
+  height: 6vh;
+}
+
+.text {
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  width: 33vh;
+  justify-content: center;
+  z-index: 1;
+}
