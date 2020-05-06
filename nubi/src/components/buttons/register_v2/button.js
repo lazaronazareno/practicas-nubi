@@ -4,11 +4,9 @@ import styles from './styles.module.scss';
 
 function Registerv2Button() {
   return (
-    <div className={styles.container}>
-      <button type="button" className={styles.button}>
-        REGISTRATE GRATIS
-      </button>
-    </div>
+    <button type="button" className={styles.button}>
+      REGISTRATE GRATIS
+    </button>
   );
 }
 

@@ -2,12 +2,12 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
-function LoginButton() {
+function AboutButton() {
   return (
     <button type="button" className={styles.button}>
-      INICIAR SESIÓN
+      Ver más
     </button>
   );
 }
 
-export default LoginButton;
+export default AboutButton;

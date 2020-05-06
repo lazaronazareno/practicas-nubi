@@ -2,12 +2,12 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
-function LoginButton() {
+function RegisterButton() {
   return (
     <button type="button" className={styles.button}>
-      INICIAR SESIÓN
+      Registrate Gratis
     </button>
   );
 }
 
-export default LoginButton;
+export default RegisterButton;
