@@ -22,9 +22,9 @@ class Header extends React.Component {
     return (
       <div className={styles.mainContainer}>
         <div className={styles.subContainer}>
-          <Registerv2Button />
-          <LoginButton />
-          <Burger click={this.sidebarClickHandler} />
+          <Registerv2Button show={this.state.sidebarOpen} />
+          <LoginButton show={this.state.sidebarOpen} />
+          <Burger show={this.state.sidebarOpen} click={this.sidebarClickHandler} />
         </div>
         <Sidebar show={this.state.sidebarOpen} />
       </div>

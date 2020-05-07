@@ -20,14 +20,24 @@
   background-color: $main-blue;
 }
 
-.change1 {
-  transform: rotate(-45deg) translate(-9px, 6px);
+.changed1 {
+  width: 5vh;
+  height: 1vh;
+  border-radius: 1vh;
+  transform: rotate(-45deg) translate(-1vh, 1vh);
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
 }
 
-.change2 {
+.changed2 {
   opacity: 0;
 }
 
-.change3 {
-  transform: rotate(45deg) translate(-8px, -8px);
+.changed3 {
+    width: 5vh;
+  height: 1vh;
+  border-radius: 1vh;
+  transform: rotate(45deg) translate(-1vh, -1vh);
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
 }
