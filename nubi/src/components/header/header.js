@@ -19,17 +19,14 @@ class Header extends React.Component {
   };
 
   render() {
-    let sidebar = null;
-
-    if (this.state.sidebarOpen) {
-      sidebar = <Sidebar />;
-    }
     return (
-      <div className={styles.container}>
-        <Registerv2Button />
-        <LoginButton />
-        <Burger click={this.sidebarClickHandler} />
-        {sidebar}
+      <div className={styles.mainContainer}>
+        <div className={styles.subContainer}>
+          <Registerv2Button />
+          <LoginButton />
+          <Burger click={this.sidebarClickHandler} />
+        </div>
+        <Sidebar show={this.state.sidebarOpen} />
       </div>
     );
   }

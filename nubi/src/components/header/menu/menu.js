@@ -2,9 +2,13 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
-function Sidebar() {
+function Sidebar(props) {
+  let menuClasses = styles.menu;
+  if (props.show === false) {
+    menuClasses = styles.closed;
+  }
   return (
-    <div className={styles.menu}>
+    <div className={menuClasses}>
       <a href="/" className={styles.menuText}>
         Home
       </a>

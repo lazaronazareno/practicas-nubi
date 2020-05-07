@@ -1,4 +1,8 @@
-.container {
+.mainContainer{
+  overflow: hidden;
+}
+
+.subContainer {
   background-color: inherit;
   display: flex;
   align-items: center;
@@ -7,4 +11,5 @@
   position: sticky;
   top: 0;
   padding: 1vh;
+  z-index: 10;
 }
