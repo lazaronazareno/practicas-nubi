@@ -1,13 +1,15 @@
 .cont1{
     width: 100%;
-    height: 90vh;
-    
+    height: 93vh;
+    background-color: red;
 }
-.Fondo{
-    width: 100%;
-    height: 100%;
-    background-position: center left;
-    position:absolute;
+.ContainerBlog{
+    width:100%;
+    height: 100vh;
+    background-image: url(../assets/Fondo.png);
+    background-size: 125% 100%;
+    position: absolute;
     right: 0px;
     top:0px;
+
 }
