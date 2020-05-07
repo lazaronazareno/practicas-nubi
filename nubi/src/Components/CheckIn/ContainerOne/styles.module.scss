@@ -1,26 +1,27 @@
 .cont1{
     background-color: rgb(0, 50, 90);
+    position: absolute;
+    right: 0px;
+    bottom: 50%;
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     
 }
-.containerCheckIn{
-    width: 100%;
-    height: 90vh;
-}
+
+
 .titleOne{
     width: 100%;
-    height: 70vh;
+    height: 45vh;
 }
 .title1{
-    width: 90%;
+    width: 60%;
     height: 20%;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     position: relative;
     top: 30%;
-    left: 3%;
+    left: 0%;
     font-style: oblique;
 
 }
@@ -28,15 +29,16 @@
     width: 40%;
     height: 30vh;
     position: relative;
-    left: 30%;
-    bottom: 28vh;
+    left: 60%;
+    bottom: 40vh;
 }
 .button1{
     width: 64%;
     height: 34%;
     position: relative;
-    left: 14%;
-    background-color: rgb(121, 34, 121);
+    left: 8%;
+    top:28%;
+    background-color: rgb(84, 86, 182);
     border: 0px;
     border-radius: 50px;
     font-size: 30px;

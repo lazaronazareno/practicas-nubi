@@ -6,7 +6,6 @@ class ContainerOne extends React.Component{
     render(){
         return (
             <div className={styles.cont1}>
-                <div className={styles.containerCheckIn}>
                     <div className={styles.titleOne}>
                         <h1 className={styles.title1}>Tu cuenta Nubi en sólo 2 minutos</h1>
                     </div>
@@ -15,7 +14,6 @@ class ContainerOne extends React.Component{
                             Registrate Greatis
                         </button>
                     </div>
-                </div>
             </div>
         )
     }
