@@ -8,7 +8,6 @@ class ContainerOne extends React.Component{
         return (
             <div className={styles.cont1}>
               <div className={styles.ContainerWithdrawals}>
-                  <img src={Fondo}className={styles.fondo}/>
               </div>
             </div>
             
