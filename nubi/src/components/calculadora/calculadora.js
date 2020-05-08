@@ -16,10 +16,14 @@ function Calculadora() {
             <label className={styles.subTitle} htmlFor="inicio">
               Indicá el monton en Dólares
             </label>
-            <input type="radio" />
-            <label className={styles.subTitle}>RECARGA</label>
-            <input type="radio" />
-            <label className={styles.subTitle}>RETIRO</label>
+            <input type="radio" name="recarga" id="recharge" />
+            <label className={styles.subTitle} htmlFor="recharge">
+              RECARGA
+            </label>
+            <input type="radio" name="retiro" id="retire" />
+            <label className={styles.subTitle} htmlFor="retire">
+              RETIRO
+            </label>
           </form>
         </div>
         <img className={styles.arrow} src={arrow} alt="arrow" />
