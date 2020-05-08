@@ -5,6 +5,7 @@ import styles from './styles.module.scss';
 function Sidebar() {
   return (
     <nav className={styles.menu}>
+      {/* @TODO:  Reemplazar el href por el apropiado una vez estén listas las secciones referenciadas. */}
       <a href="/" className={styles.menuText}>
         Home
       </a>
