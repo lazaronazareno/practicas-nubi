@@ -1,5 +1,7 @@
+@import '../../constants/colors.module.scss';
+
 .container {
-  background-color: inherit;
+  background-color: $background-grey;
   display: flex;
   align-items: center;
   justify-content: flex-end;
