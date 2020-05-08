@@ -19,11 +19,10 @@ function Recargas() {
       </div>
       <h1 className={styles.subTitle}>Ahorrá en tus compras online</h1>
       <div className={styles.imagesContainer}>
-        {logos.map(({ src, title }) => (
-          // eslint-disable-next-line react/jsx-key
-          <div className={styles.imageContainer}>
+        {logos.map(({ src, title, separator }) => (
+          <div key={title} className={styles.imageContainer}>
             <img className={styles.images} src={src} alt="logo" />
-            <h1 className={styles.barra}>{title}</h1>
+            <h1 className={styles.barra}>{separator}</h1>
           </div>
         ))}
       </div>
