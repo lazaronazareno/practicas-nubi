@@ -1,0 +1,48 @@
+@import '../../constants/colors.module.scss';
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh;
+}
+
+.subContainer {
+  display: flex;
+  margin: 10vh;
+}
+
+.smallContainer {
+  display: flex;
+  width: 60vh;
+}
+
+.title {
+  color: $title-darkblue;
+  font-family: 'Roboto';
+  margin: 5vh;
+  font-style: italic;
+  font-size: 7vh;
+  font-weight: 500;
+}
+
+.subTitle {
+  color: $main-blue;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.inputNumber {
+  width: 60vh;
+  height: 10vh;
+  border: none;
+  border-bottom: 0.5vh solid $main-blue;
+  font-size: 10vh;
+  opacity: 0.4;
+  margin: 3vh;
+}
+
+.arrow {
+  margin: 10vh;
+}

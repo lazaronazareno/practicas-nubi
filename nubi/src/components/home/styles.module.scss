@@ -1,0 +1,74 @@
+@import '../../constants/colors.module.scss';
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.subContainerOne {
+  background-image: url('../../assets/images/img_main_section_phone@2x.png');
+  background-color: $background-grey;
+  background-position: 115% 35%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 71vh;
+  width: 100%;
+}
+
+.subContainerTwo {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vh;
+  width: 100%;
+}
+
+.text {
+  color: $title-darkblue;
+  font-family: 'Rubik';
+  margin-bottom: 1vh;
+  text-align: center;
+  width: 44vh;
+  z-index: 1;
+}
+
+.logo {
+  margin-top: 5vh;
+  width: 50vh;
+}
+
+.phone {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  overflow: hidden;
+}
+
+.containerSection {
+  background-color: $background-grey;
+  display:flex;
+  flex-direction: column;
+  width: 100vh;
+}
+
+.title {
+  color: $main-blue;
+  font-family: 'Rubik';
+  text-align: center;
+}
+
+.subTitle {
+  color: $title-darkblue;
+  font-family: 'Rubik';
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

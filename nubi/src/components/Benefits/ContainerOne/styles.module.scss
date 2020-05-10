@@ -39,23 +39,6 @@
   bottom:21%;
 }
 
-.botton {
-  text-align: center;
-  position: relative;
-  bottom: 10%;
-}
-
-.botton1 {
-  background-color: rgb(92, 25, 131);
-  border-color: rgb(92, 25, 131);
-  font-size: 20px;
-  border-radius: 30px;
-  margin-right: 25px;
-  width: 250px;
-  height: 65px;
-  color:white;
-}
-
 .hr {
   width: 10px;
   background-color: $border-brightblue;
@@ -67,4 +50,8 @@
 
 .title {
   font-style: oblique;    
+}
+
+.button {
+  text-align: center;
 }
