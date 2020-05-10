@@ -1,0 +1,67 @@
+@import '../../../constants/colors.module.scss';
+
+.cont2 {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  bottom: 100%;
+}
+
+.title1 {
+  width: 60%;
+  height: 40%;
+  position: relative;
+  left: 12%;
+  bottom: 30px;
+  font-style: oblique;
+  font-size: larger;
+  color:$title-darkblue;
+  margin-top: 15vh;
+}
+
+.title2 {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left:10%;
+  color: $title-darkblue;
+  text-align: center;
+}
+
+.title3 {
+  width: 36%;
+  height: 80px;
+  position: relative;
+  left:11%;
+  color: $title-darkblue;
+  text-align: center;
+}
+
+.table1 {
+  border: 1px solid rgb(34,70,77);
+  border-collapse: collapse;
+  text-align: center;
+  width: 36%;
+  height: 15vh;
+  color: $title-darkblue;
+  position: relative;
+  left: 11%;
+}
+
+.th1 {
+  border: 1px solid $title-darkblue;
+  border-collapse: collapse;
+}
+
+.text1 {
+  width: 38%;
+  font-size: 12px;
+  position: relative;
+  left: 11%;
+  color: $title-darkblue;
+}
+
+.button {
+  text-align: center;
+  width: 60%;
+}
