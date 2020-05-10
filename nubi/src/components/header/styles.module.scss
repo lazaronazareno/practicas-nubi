@@ -1,15 +1,16 @@
-.mainContainer{
-  overflow: hidden;
+@import '../../constants/colors.module.scss';
+
+.mainContainer {
+  background-color: inherit;
+  height: 0;
+  position: sticky;
+  top: 0;
 }
 
 .subContainer {
-  background-color: inherit;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 8vh;
-  position: sticky;
-  top: 0;
   padding: 1vh;
-  z-index: 10;
 }

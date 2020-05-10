@@ -3,12 +3,12 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 function LoginButton(props) {
-  let button = styles.button;
+  let boton = styles.button;
   if (props.show === true) {
-    button = styles.buttonChange;
+    boton = styles.buttonChange;
   }
   return (
-    <button type="button" className={button}>
+    <button type="button" className={boton}>
       INICIAR SESIÓN
     </button>
   );

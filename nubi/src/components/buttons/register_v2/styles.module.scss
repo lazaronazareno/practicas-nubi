@@ -10,10 +10,12 @@
 }
 
 .buttonChange{
-  background-color: inherit;
+  background-color: $main-blue;
   border: none;
   color: white;
   border-radius: 5vh;
   width: 30vh;
   height: 6vh;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
 }

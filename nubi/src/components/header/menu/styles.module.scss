@@ -1,9 +1,12 @@
+@import '../../../constants/colors.module.scss';
+
 .menu {
-  background-color: #5481ff;
+  background-color: $main-blue;
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 35%;
+  min-width: 60vh;
   padding: 3vh;
   padding-top: 10vh;
   position: absolute;
@@ -29,8 +32,9 @@
   padding: 1vh;
   text-decoration: none;
   width: fit-content;
+  text-decoration: none;
 
-  &:hover{
-    border-bottom: 0.5vh solid #53ffc7;
+  &:hover {
+    border-bottom: 0.5vh solid $border-brightblue;
   }
 }
