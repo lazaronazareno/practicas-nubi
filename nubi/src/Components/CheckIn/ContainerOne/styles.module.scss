@@ -1,0 +1,16 @@
+@import '../../../constants/colors.module.scss';
+
+.cont1 {
+  background-color: $title-darkblue;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title1 {
+  color: white;
+  font-size: 7vh;
+  padding-left: 10vh;
+}
