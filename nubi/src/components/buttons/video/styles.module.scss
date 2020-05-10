@@ -1,0 +1,14 @@
+@import '../../../constants/colors.module.scss';
+
+.button {
+  background-color: white;
+  border-color: $main-blue;
+  border-radius: 5vh;
+  color: $main-blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vh;
+  height: 6vh;
+  margin: 2vh;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import submit from '../assets/submit.svg';
+import AboutBlogButton from '../../buttons/about_blog/button';
 
 import styles from './styles.module.scss';
 
@@ -29,9 +30,7 @@ class ContainerTwo extends React.Component {
             </button>
           </div>
           <div className={styles.buttonTwo}>
-            <button type="button" className={styles.button2}>
-              <strong>Ver blog</strong>
-            </button>
+            <AboutBlogButton />
           </div>
         </div>
       </div>

@@ -1,0 +1,10 @@
+@import '../../../constants/colors.module.scss';
+
+.button {
+  background-color: inherit;
+  border: none;
+  color: $main-blue;
+  border-radius: 5vh;
+  width: 30vh;
+  height: 6vh;
+}

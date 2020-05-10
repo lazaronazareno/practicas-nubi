@@ -1,0 +1,15 @@
+@import '../../constants/colors.module.scss';
+
+.mainContainer {
+  position: sticky;
+  top: 0;
+}
+
+.subContainer {
+  background-color: $background-grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 8vh;
+  padding: 1vh;
+}

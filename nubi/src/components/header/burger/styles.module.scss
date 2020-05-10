@@ -1,0 +1,19 @@
+@import '../../../constants/colors.module.scss';
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 10vh;
+  height: 6vh;
+  background: inherit;
+  border: none;
+  align-items: center;
+}
+
+.burgerContent {
+  width: 5vh;
+  height: 1vh;
+  border-radius: 1vh;
+  background-color: $main-blue;
+}
