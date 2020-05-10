@@ -7,20 +7,6 @@
   bottom: 100%;
 }
 
-.boton {
-  background-color: rgb(60, 118, 224);
-  font-size: 20px;
-  color: white;
-  border-radius: 28px;
-  margin-right: 25px;
-  border-color: rgb(60, 118, 224);
-  width: 250px;
-  height: 65px;
-  position: relative;
-  left:20%;
-  top:505px;  
-}
-
 .title1 {
   width: 60%;
   height: 40%;
@@ -30,6 +16,7 @@
   font-style: oblique;
   font-size: larger;
   color:$title-darkblue;
+  margin-top: 15vh;
 }
 
 .title2 {
@@ -72,4 +59,9 @@
   position: relative;
   left: 11%;
   color: $title-darkblue;
+}
+
+.button {
+  text-align: center;
+  width: 60%;
 }

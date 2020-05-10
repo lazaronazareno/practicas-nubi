@@ -1,5 +1,7 @@
 import React from 'react';
 
+import RegisterButton from '../../buttons/register/button';
+
 import styles from './styles.module.scss';
 
 // eslint-disable-next-line react/prefer-stateless-function
@@ -8,11 +10,6 @@ class Containertwo extends React.Component {
     return (
       <div className={styles.cont2}>
         <div className={styles.ContainerBenefits}>
-          <div className={styles.button}>
-            <button type="button" className={styles.boton}>
-              Registrate Gratis
-            </button>
-          </div>
           <div className={styles.title1}>
             <h1 className={styles.titleOne}>Retirá de tu cuenta PayPal</h1>
           </div>
@@ -57,6 +54,9 @@ class Containertwo extends React.Component {
               caso, Nubi deberá validar tus fondos y en esa primera operación, tu retiro demorarà 5 días
               hábiles.
             </p>
+          </div>
+          <div className={styles.button}>
+            <RegisterButton />
           </div>
         </div>
       </div>
