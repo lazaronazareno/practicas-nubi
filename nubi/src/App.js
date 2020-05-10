@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import CheckIn from './Components/CheckIn/index';
-import styles from './styles.module.scss';
+import Header from './Components/header/header';
+import Calculadora from './Components/calculadora/calculadora';
+import Home from './Components/home/home';
+import Recargas from './Components/recargas/recargas';
+import CheckIn from './Components/CheckIn';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
-  render() {
-    return (
-      <div className={styles.App}>
-        <div className={styles.Appheader}>
-          <CheckIn />
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
+      <CheckIn />
+    </div>
+  );
 }
 
 export default App;
