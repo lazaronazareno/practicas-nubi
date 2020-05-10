@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Whithdrawals from './components/Withdrawals';
-import styles from './styles.module.scss';
+import Header from './components/header/header';
+import Calculadora from './components/calculadora/calculadora';
+import Home from './components/home/home';
+import Recargas from './components/recargas/recargas';
+import Whithdrawals from './components/Withdrawals/index';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
-  render() {
-    return (
-      <div className={styles.App}>
-        <div className={styles.Appheader}>
-          <Whithdrawals />
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
+      <Whithdrawals />
+    </div>
+  );
 }
 
 export default App;
