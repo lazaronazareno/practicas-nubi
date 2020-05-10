@@ -1,16 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
+import Header from './Components/header/header';
+import Calculadora from './Components/calculadora/calculadora';
+import Home from './Components/home/home';
+import Recargas from './Components/recargas/recargas';
 import Footer from './Components/Footer';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Footer />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
