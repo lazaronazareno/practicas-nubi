@@ -1,12 +1,13 @@
 @import '../../constants/colors.module.scss';
 
 .mainContainer {
+  background-color: inherit;
+  height: 0;
   position: sticky;
   top: 0;
 }
 
 .subContainer {
-  background-color: $background-grey;
   display: flex;
   align-items: center;
   justify-content: flex-end;

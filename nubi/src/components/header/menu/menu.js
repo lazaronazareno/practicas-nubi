@@ -2,10 +2,13 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 
-function Sidebar() {
+function Sidebar(props) {
+  let menuClasses = styles.menu;
+  if (props.show === false) {
+    menuClasses = styles.closed;
+  }
   return (
-    <nav className={styles.menu}>
-      {/* @TODO:  Reemplazar el href por el apropiado una vez estén listas las secciones referenciadas. */}
+    <div className={menuClasses}>
       <a href="/" className={styles.menuText}>
         Home
       </a>
@@ -33,7 +36,7 @@ function Sidebar() {
       <a href="/" className={styles.menuText}>
         Empresas
       </a>
-    </nav>
+    </div>
   );
 }
 

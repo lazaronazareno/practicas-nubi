@@ -9,3 +9,13 @@
   height: 6vh;
 }
 
+.buttonChange{
+  background-color: white;
+  border: none;
+  color: $main-blue;
+  border-radius: 5vh;
+  width: 30vh;
+  height: 6vh;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
