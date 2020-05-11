@@ -15,7 +15,7 @@
 
 .smallContainer {
   display: flex;
-  width: 60vh;
+  width: 73vh;
 }
 
 .title {
@@ -35,14 +35,24 @@
 
 .inputNumber {
   width: 60vh;
-  height: 10vh;
+  height: 15vh;
   border: none;
   border-bottom: 0.5vh solid $main-blue;
   font-size: 10vh;
-  opacity: 0.4;
+  opacity: 0.5;
   margin: 3vh;
 }
 
+.button {
+  width: 6vh;
+  height: 10vh;
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+}
+
 .arrow {
-  margin: 10vh;
+  width: 6vh;
+  margin-top: 2vh;
+  cursor: pointer;
 }
