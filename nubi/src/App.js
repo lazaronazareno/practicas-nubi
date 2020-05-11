@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Calculadora from './components/calculadora/calculadora';
+import Calculadora from './Components/calculadora/calculadora';
 
 function App() {
   return <Calculadora />;
