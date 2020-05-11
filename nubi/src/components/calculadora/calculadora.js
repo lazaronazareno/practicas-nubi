@@ -12,7 +12,7 @@ class Calculadora extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     console.log(this.state.amount);
-    this.setState({realAmount: this.state.amount * 100 });
+    this.setState({ realAmount: this.state.amount * 100 });
     console.log(this.state.realAmount);
   };
 
