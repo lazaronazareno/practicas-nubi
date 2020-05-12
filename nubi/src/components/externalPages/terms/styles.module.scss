@@ -1,0 +1,21 @@
+@import '../../../constants/colors.module.scss';
+
+.mainContainer{
+  height: 100vh;
+}
+
+.title {
+  background: url('../../../assets/images/bg_main_about_us.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.textTitle{
+  font-size: xxx-large;
+  font-weight: 900;
+  font-style: oblique;
+  color: $title-darkblue;
+}
