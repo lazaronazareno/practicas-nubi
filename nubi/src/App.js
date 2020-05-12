@@ -5,6 +5,7 @@ import Calculadora from './Components/calculadora/calculadora';
 import Home from './Components/home/home';
 import Recargas from './Components/recargas/recargas';
 import Whithdrawals from './Components/Withdrawals/index';
+import Benefits from './Components/Benefits/index';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Calculadora />
       <Recargas />
       <Whithdrawals />
+      <Benefits />
     </div>
   );
 }
