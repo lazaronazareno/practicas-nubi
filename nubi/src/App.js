@@ -8,6 +8,7 @@ import Whithdrawals from './Components/Withdrawals/index';
 import Benefits from './Components/Benefits/index';
 import Blog from './Components/Blog/index';
 import CheckIn from './Components/CheckIn';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Benefits />
       <Blog />
       <CheckIn />
+      <Footer />
     </div>
   );
 }

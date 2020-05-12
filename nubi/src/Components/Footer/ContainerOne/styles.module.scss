@@ -1,0 +1,211 @@
+.contOne {
+  width: 100%;
+  height: 90vh;
+}
+
+.ContainerFooter {
+  width: 100%;
+  height: 30vh;
+  background-color:rgb(75, 74, 74);
+  position: absolute;
+}
+
+.title {
+  width: 100%;
+  height: 26vh;
+}
+
+.title1 {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-style: oblique;
+  color:white;
+}
+
+.button {
+  width: 48%;
+  height: 28vh;
+  position: relative;
+  left: 52%;
+  bottom: 28vh;  
+}
+
+.button1 {
+  width: 22%;
+  height:15%;
+  border-radius: 50px;
+  position: relative;
+  left: 17%;
+  top: 25%;
+  border-radius: 50px;
+  font-size: 11px;
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.button2 {
+  width: 22%;
+  height:15%;
+  border-radius: 50px;
+  position: relative;
+  left: 20%;
+  top: 25%;
+  border-radius: 50px;
+  font-size: 11px;
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.button3 {
+  width: 22%;
+  height:15%;
+  position: relative;
+  left: 23%;
+  top: 25%;
+  border-radius: 50px;
+  font-size: 11px;
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.button4 {
+  width: 22%;
+  height:15%;
+  position: relative;
+  top:55%;
+  right: 49%;
+  border-radius: 50px;
+  font-size: 11px;
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.button5 {
+  width: 22%;
+  height:15%;
+  position: relative;
+  top: 40%;
+  left: 42%;
+  border-radius: 50px;
+  font-size: 11px; 
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.button6 {
+  width: 22%;
+  height:15%;
+  position: relative;
+  top: 40%;
+  left: 45%;
+  border-radius: 50px;
+  font-size: 11px;
+  color:white;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+}
+
+.logos {
+  width: 25%;
+  height: 6vh;
+  position: relative;
+  bottom:142%;
+  left:35%
+}
+
+.button7 {
+  width: 12%;
+  height: 99%;
+  background-image: url(../Assets/Instagram.svg);
+  background-color: rgb(51, 51, 51);
+  border:0px;
+  background-size: 33px 39px;
+  background-position-x: 37px;
+  position: relative;
+  left: 27%;
+  border-radius: 60px;
+}
+
+.button8 {
+  width: 12%;
+  height: 99%;
+  background-image: url(../Assets/Twitter.svg);
+  background-color: rgb(51, 51, 51);
+  border:0px;
+  background-size: 31px 39px;
+  background-position-x: 36px;
+  position: relative;
+  left: 34%;
+  border-radius: 60px;
+}
+
+.button9 {
+  width: 12%;
+  height: 99%;
+  background-image: url(../Assets/Facebook.svg);
+  background-color: rgb(51, 51, 51);
+  border:0px;
+  background-size: 29px 39px;
+  background-position-x: 33px;
+  position: relative;
+  left: 40%;
+  border-radius: 60px;
+}
+
+.button10 {
+  width: 12%;
+  height: 99%;
+  background-image: url(../Assets/Youtube.svg);
+  background-color: rgb(51, 51, 51);
+  border:0px;
+  background-size: 35px 38px;
+  background-position-x: 38px;
+  background-position-y: 2px;
+  position: relative;
+  left: 46%;
+  border-radius: 60px;
+}
+
+.logos2 {
+  width: 40%;
+  height: 90%;
+  position: relative;
+  bottom:61vh;
+}
+
+.Nubi {
+  width: 33%;
+  height: 30%;
+  background-image: url(../Assets/secured_paypal.png);
+  background-position-y: -4px;
+  background-position-x: -7px;
+  background-size: 195px;
+  position: relative;
+  left:45%;
+  top:32%;
+  border-radius: 20px;
+}
+
+.Paypal {
+  width: 25%;
+  height: 25%;
+  background-image: url(../Assets/logo_nubi_white.svg);
+  background-size: 140px;
+  position: relative;
+  left:11%;
+}
+
+.text {
+  color: rgb(161, 161, 161);
+  width: 34%;
+  font-size: 15px;
+  position: relative;
+  left: 10%;
+  bottom:9%;
+}
