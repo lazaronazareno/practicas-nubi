@@ -6,6 +6,7 @@ import Home from './Components/home/home';
 import Recargas from './Components/recargas/recargas';
 import Whithdrawals from './Components/Withdrawals/index';
 import Benefits from './Components/Benefits/index';
+import Blog from './Components/Blog/index';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Recargas />
       <Whithdrawals />
       <Benefits />
+      <Blog />
     </div>
   );
 }
