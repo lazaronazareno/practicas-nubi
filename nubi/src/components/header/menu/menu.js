@@ -6,31 +6,31 @@ function Sidebar() {
   return (
     <nav className={styles.menu}>
       {/* @TODO:  Reemplazar el href por el apropiado una vez estén listas las secciones referenciadas. */}
-      <a href="/" className={styles.menuText}>
+      <a href="#Home" className={styles.menuText}>
         Home
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="#Recargas" className={styles.menuText}>
         Recargas
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="#retire" className={styles.menuText}>
         Retiros
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="#calculadora" className={styles.menuText}>
         Calculadora
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="/blog" className={styles.menuText}>
         Blog
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="/us" className={styles.menuText}>
         Nosotros
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="/help" className={styles.menuText}>
         Ayuda
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="/comunication" className={styles.menuText}>
         Prensa
       </a>
-      <a href="/" className={styles.menuText}>
+      <a href="/companies" className={styles.menuText}>
         Empresas
       </a>
     </nav>
