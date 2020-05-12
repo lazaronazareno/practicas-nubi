@@ -4,6 +4,7 @@ import Header from './Components/header/header';
 import Calculadora from './Components/calculadora/calculadora';
 import Home from './Components/home/home';
 import Recargas from './Components/recargas/recargas';
+import Whithdrawals from './Components/Withdrawals/index';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Calculadora />
       <Recargas />
+      <Whithdrawals />
     </div>
   );
 }
