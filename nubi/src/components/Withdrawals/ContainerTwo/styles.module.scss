@@ -2,16 +2,20 @@
 
 .cont2 {
   width: 100%;
-  height: 90vh;
+  display: flex;
   position: relative;
   bottom: 100%;
 }
 
+.containerBenefits {
+  display: flex;
+  flex-direction: column;
+}
+
 .title1 {
   width: 60%;
-  height: 40%;
   position: relative;
-  left: 12%;
+  left: 22%;
   bottom: 30px;
   font-style: oblique;
   font-size: larger;
@@ -20,19 +24,17 @@
 }
 
 .title2 {
-  width: 40%;
-  height: 40%;
+  width: 53%;
   position: relative;
-  left:10%;
+  left:19%;
   color: $title-darkblue;
   text-align: center;
 }
 
 .title3 {
-  width: 36%;
-  height: 80px;
+  width: 47%;
   position: relative;
-  left:11%;
+  left:20%;
   color: $title-darkblue;
   text-align: center;
 }
@@ -41,11 +43,10 @@
   border: 1px solid rgb(34,70,77);
   border-collapse: collapse;
   text-align: center;
-  width: 36%;
-  height: 15vh;
+  width: 50%;
   color: $title-darkblue;
   position: relative;
-  left: 11%;
+  left: 20%;
 }
 
 .th1 {
@@ -54,14 +55,14 @@
 }
 
 .text1 {
-  width: 38%;
+  width: 50%;
   font-size: 12px;
   position: relative;
-  left: 11%;
+  left: 20%;
   color: $title-darkblue;
 }
 
 .button {
   text-align: center;
-  width: 60%;
+  width: 90%;
 }
