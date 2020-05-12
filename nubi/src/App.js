@@ -7,6 +7,7 @@ import Recargas from './Components/recargas/recargas';
 import Whithdrawals from './Components/Withdrawals/index';
 import Benefits from './Components/Benefits/index';
 import Blog from './Components/Blog/index';
+import CheckIn from './Components/CheckIn';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Whithdrawals />
       <Benefits />
       <Blog />
+      <CheckIn />
     </div>
   );
 }
