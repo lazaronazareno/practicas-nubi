@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 class AmountExForm extends React.Component {
-  state = { monto: '', realMonto: '', radioButton1: false, radioButton2: false };
+  state = { monto: '', realMonto: '', radioButton1: true, radioButton2: false };
 
   async componentDidMount(props) {
     const requestOptions = {
@@ -29,7 +29,7 @@ class AmountExForm extends React.Component {
           <input
             className={styles.inputNumber}
             type="number"
-            placeholder={this.state.realMonto ? this.state.realMonto : 'Dolares'}
+            placeholder={this.state.realMonto ? this.state.realMonto : 'Pesos'}
             name="inicio"
           />
           <label className={styles.subTitle} htmlFor="inicio">
@@ -42,7 +42,7 @@ class AmountExForm extends React.Component {
             id="ar"
             checked={this.state.radioButton1}
             onClick={(e) => {
-              this.setState({ radioButton1: !this.state.radioButton1 });
+              this.setState({ radioButton1: this.state.radioButton1 });
             }}
           />
           <label className={styles.subTitle} htmlFor="ar">
@@ -55,7 +55,7 @@ class AmountExForm extends React.Component {
             id="dolar"
             checked={this.state.radioButton2}
             onClick={(e) => {
-              this.setState({ radioButton2: !this.state.radioButton2 });
+              this.setState({ radioButton2: this.state.radioButton2 });
             }}
           />
           <label className={styles.subTitle} htmlFor="dolar">

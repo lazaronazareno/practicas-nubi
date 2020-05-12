@@ -7,7 +7,7 @@ import styles from './styles.module.scss';
 import AmountExForm from './amountExpectedForm';
 
 class Calculadora extends React.Component {
-  state = { amount: '', realAmount: '', radioButton1: false, radioButton2: false };
+  state = { amount: '', realAmount: '', radioButton1: false, radioButton2: true };
 
   handleSubmit = (event) => {
     event.preventDefault();
@@ -26,7 +26,7 @@ class Calculadora extends React.Component {
               <input
                 className={styles.inputNumber}
                 type="number"
-                placeholder="Pesos"
+                placeholder="Dolares"
                 id="inicio"
                 value={this.state.amount}
                 onChange={(e) => {
@@ -38,7 +38,7 @@ class Calculadora extends React.Component {
               </button>
               <div>
                 <label className={styles.subTitle} htmlFor="inicio">
-                  Indicá el monto en Pesos
+                  Indicá el monto en Dolares
                 </label>
                 <input
                   type="radio"
@@ -46,7 +46,7 @@ class Calculadora extends React.Component {
                   id="recharge"
                   checked={this.state.radioButton1}
                   onClick={(e) => {
-                    this.setState({ radioButton1: !this.state.radioButton1 });
+                    this.setState({ radioButton1: this.state.radioButton1 });
                   }}
                 />
                 <label className={styles.subTitle} htmlFor="recharge">
@@ -58,7 +58,7 @@ class Calculadora extends React.Component {
                   id="retire"
                   checked={this.state.radioButton2}
                   onClick={(e) => {
-                    this.setState({ radioButton2: !this.state.radioButton2 });
+                    this.setState({ radioButton2: this.state.radioButton2 });
                   }}
                 />
                 <label className={styles.subTitle} htmlFor="retire">
