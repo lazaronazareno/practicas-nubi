@@ -1,0 +1,96 @@
+@import '../../../constants/colors.module.scss';
+
+.mainContainer{
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  background: url('../../../assets/images/bg_main_about_us.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.textTitle{
+  font-size: xxx-large;
+  font-weight: 900;
+  font-style: oblique;
+  color: $title-darkblue;
+}
+
+.text {
+  color: $main-blue;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  margin: 12vh;
+  text-align: center;
+}
+
+.button {
+  align-self: flex-end;
+  background-color: white;
+  border-color: $main-blue;
+  border-radius: 5vh;
+  color: $main-blue;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vh;
+  height: 6vh;
+  margin: 2vh;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.smallTitle {
+  font-size: xx-large;
+  font-weight: lighter;
+  margin: 5vh;
+}
+
+.smallSubTitle {
+  font-size: large;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.pressImgs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15vh;
+  border-top: 0.5vh solid $border-brightblue;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 80vh;
+  padding: 4vh;
+}
+
+.images {
+  background-size: cover;
+  height: 40%;
+  width: 90%;
+}
+
+.name {
+  align-self: center;
+  color: $main-blue;
+  margin-bottom: 0;
+}
+
+.smallText {
+  font-weight: lighter;
+  font-size: xx-large;
+  margin: 0;
+}

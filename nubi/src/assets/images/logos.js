@@ -9,7 +9,7 @@ import carters from './img_logo_carters.png';
 import origin from './img_logo_origin.png';
 
 const logos = [
-  { src: airbnb, separator: '|', title:'logo airnbnb' },
+  { src: airbnb, separator: '|', title: 'logo airnbnb' },
   { src: ebay, separator: '|', title: 'logo ebay' },
   { src: tiendamia, separator: '|', title: 'logo tiendamia' },
   { src: carters, separator: '|', title: 'logo carters' },
