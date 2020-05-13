@@ -2,6 +2,7 @@
 
 .mainContainer{
   height: 100vh;
+  width: 100%;
 }
 
 .title {
@@ -18,4 +19,32 @@
   font-weight: 900;
   font-style: oblique;
   color: $title-darkblue;
+}
+
+.text {
+  color: $main-blue;
+  display: flex;
+  font-size: xx-large;
+  margin: 12vh;
+  text-align: center;
+}
+
+.smallContainer {
+  padding: 10vh;
+}
+
+.smallTitle {
+  align-items: center;
+  border-bottom: 0.5vh solid $border-brightblue;
+  display: flex;
+  font-size: xx-large;
+  font-weight: lighter;
+  justify-content: center;
+  margin: 0;
+  padding: 2vh;
+}
+
+.smallText {
+  color: $title-darkblue;
+  font-weight: lighter;
 }
