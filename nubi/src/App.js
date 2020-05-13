@@ -1,11 +1,17 @@
 import React from 'react';
 
-import Press from './Components/externalPages/press/press';
+import Header from './Components/header/header';
+import Calculadora from './Components/calculadora/calculadora';
+import Home from './Components/home/home';
+import Recargas from './Components/recargas/recargas';
 
 function App() {
   return (
     <div>
-      <Press />
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
     </div>
   );
 }
