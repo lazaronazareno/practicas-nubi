@@ -1,11 +1,17 @@
 import React from 'react';
 
-import Enterprise from './Components/externalPages/enterprise/enterprise';
+import Header from './Components/header/header';
+import Calculadora from './Components/calculadora/calculadora';
+import Home from './Components/home/home';
+import Recargas from './Components/recargas/recargas';
 
 function App() {
   return (
     <div>
-      <Enterprise />
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
     </div>
   );
 }
