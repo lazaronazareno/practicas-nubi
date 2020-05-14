@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from './components/header/header';
-import Calculadora from './components/calculadora/calculadora';
-import Home from './components/home/home';
-import Recargas from './components/recargas/recargas';
+import Header from './Components/header/header';
+import Calculadora from './Components/calculadora/calculadora';
+import Home from './Components/home/home';
+import Recargas from './Components/recargas/recargas';
 
 function App() {
   return (
