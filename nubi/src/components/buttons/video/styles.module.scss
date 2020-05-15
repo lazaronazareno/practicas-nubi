@@ -13,3 +13,11 @@
   height: 6vh;
   margin: 2vh;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .button {
+    font-size: medium;
+    height: 8vh;
+    width: 30vh;
+  }
+}

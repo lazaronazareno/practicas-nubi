@@ -73,7 +73,9 @@ class Calculadora extends React.Component {
             pesos={this.state.amount}
           />
         </div>
-        <RegisterButton />
+        <div className={styles.buttonC}>
+          <RegisterButton />
+        </div>
       </div>
     );
   }

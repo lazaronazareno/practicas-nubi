@@ -55,3 +55,26 @@
 .button {
   text-align: center;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .cont1 {
+    height: auto;
+  }
+
+  .containerBenefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+  }
+
+  .contOne, .contTwo, .contThree, .contFour {
+    position: inherit;
+    width: auto;
+  }
+
+  .button {
+    display: flex;
+    align-self: flex-start;
+  }
+}

@@ -14,3 +14,16 @@
   font-size: 7vh;
   padding-left: 10vh;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .cont1 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title1 {
+    padding: 0;
+    font-size: 6vh;
+  }
+}

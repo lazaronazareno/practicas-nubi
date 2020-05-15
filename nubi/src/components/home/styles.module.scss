@@ -72,3 +72,36 @@
   flex-direction: row;
   justify-content: center;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .subContainerOne { 
+    background-position: inherit;
+    width: 100vh;
+  }
+
+  .logo {
+    margin-top: 10vh;
+  }
+
+  .text {
+    width: 58vh;
+  }
+
+  .subContainerTwo {
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-evenly;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+
+  .subTitle {
+    font-size: x-large;
+  }
+}

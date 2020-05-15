@@ -56,3 +56,35 @@
   margin-top: 2vh;
   cursor: pointer;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .container {
+    width: 100vh;
+    padding: 0;
+  }
+
+  .title {
+    margin: auto;
+  }
+
+  .smallContainer {
+    width: auto;
+  }
+
+  .subContainer {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .inputNumber {
+    width: 92vh;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+  
+  .buttonC {
+    display: none;
+  }
+}

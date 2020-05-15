@@ -9,3 +9,11 @@
   height: 6vh;
   width: 30vh;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .button {
+    height: 8vh;
+    width: 55vh;
+    font-size: larger;
+  }
+}

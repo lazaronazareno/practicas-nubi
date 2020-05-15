@@ -7,3 +7,9 @@
   background-image: url(../assets/Retiros.png);
   background-size: cover;
 }
+
+@media only screen and (max-device-width: 600px) {
+  .ContainerWithdrawals {
+    background-position-x: 65%;
+  }
+}
