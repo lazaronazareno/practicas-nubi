@@ -43,8 +43,9 @@
     width: 85%;
     height: 100%;
     position:relative;
-    bottom: 44vh;
+    bottom: 35vh;
     left: 8%;
+    font-style: oblique;
 }
 .subtitle{
     color: rgb(71, 71, 71);
@@ -65,35 +66,21 @@
 }
 .title3{
     width: 85%;
-    height: 100%;
+    height: 50%;
     position:relative;
-    bottom: 78vh;
+    bottom: 45vh;
     left: 8%;
+    font-style: oblique;
 }
-.title4{
-    width: 85%;
-    height: 60%;
-    position:relative;
-    bottom: 90ch;
-    left: 8%;
-}
-.title5{
-    width: 85%;
-    height: 70%;
-    position:relative;
-    bottom: 100ch;
-    left: 8%;
-}
-.title6{
-    width: 85%;
-    height: 40%;
-    position:relative;
-    bottom: 100ch;
-    left: 8%;
-}
-.logo{
-    width: 100%;
-    height: 60vh;
+
+.Logo{
+    width: 50%;
+    height: 30vh;
     position: relative;
-    bottom: 100ch;
+    top:45px;
+}
+.text2{
+    color:#5c66f1;
+    text-align: left;
+    font-size: 21px;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss'
 import ContainerOne from './ContainerOne'
 
-function Privacidad (){
+function Nosotros (){
     return(
         <div className={styles.Privacidad}>
             <ContainerOne/>
@@ -10,4 +10,4 @@ function Privacidad (){
     )
 }
 
-export default Privacidad;
+export default Nosotros;

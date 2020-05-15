@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import styles from './styles.module.scss';
-import Privacidad from './Privacidad'
+import Nosotros from './Nosotros'
 
 class App extends Component {
   render() {
     return (
       <div className={styles.App}>
         <div className={styles.Appheader}>
-          <Privacidad/>
+          <Nosotros/>
         </div>
       </div>
     );
