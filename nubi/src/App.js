@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './Components/header/header';
 import Calculadora from './Components/calculadora/calculadora';
@@ -13,15 +14,25 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
-      <Calculadora />
-      <Recargas />
-      <Whithdrawals />
-      <Benefits />
-      <Blog />
-      <CheckIn />
-      <Footer />
+      <Router forceRefresh>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+            <Calculadora />
+            <Recargas />
+            <Whithdrawals />
+            <Benefits />
+            <Blog />
+            <CheckIn />
+          </Route>
+          <Route exact path="/Recargas" component={Recargas} />
+          <Route exact path="/Retiros" component={Whithdrawals} />
+          <Route exact path="/Calculadora" component={Calculadora} />
+          <Route exact path="/Blog" component={Blog} />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
