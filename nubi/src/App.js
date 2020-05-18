@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-import styles from './styles.module.scss';
-import Nosotros from './Nosotros'
+import React from 'react';
 
-class App extends Component {
+import styles from './styles.module.scss';
+import Nosotros from './Components/Nosotros';
+
+// eslint-disable-next-line react/prefer-stateless-function
+class App extends React.Component {
   render() {
     return (
       <div className={styles.App}>
         <div className={styles.Appheader}>
-          <Nosotros/>
+          <Nosotros />
         </div>
       </div>
     );
