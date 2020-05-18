@@ -112,6 +112,18 @@
   cursor: pointer;
 }
 
+.footerLink {
+  text-decoration: none;
+  color: white;
+  padding: 1vh 5vh;
+}
+
+.footerLinkT {
+  text-decoration: none;
+  color: white;
+  padding: 1vh 1vh;
+}
+
 .logos {
   width: 25%;
   height: 6vh;
@@ -177,6 +189,13 @@
   cursor: pointer;
 }
 
+.socialLink {
+  font-size: x-small;
+  color: inherit;
+  padding: 2vh 2vh;
+  color: transparent;
+}
+
 .logos2 {
   width: 40%;
   height: 90%;
@@ -196,6 +215,17 @@
   top:32%;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.link { 
+  text-decoration: none;
+  padding: 3vh 13vh;
+  font-weight: bold;
+  font-size: xx-small;
+  color: blue;
+  position: relative;
+  top: 2vh;
+  left: 1vh;
 }
 
 .Paypal {
@@ -283,11 +313,6 @@
     top: 2vh;
     height: 10vh;
     width: 31vh;
-  }
-
-  .link { 
-    text-decoration: none;
-    padding: 1vh 13vh;
   }
 
   .Paypal {

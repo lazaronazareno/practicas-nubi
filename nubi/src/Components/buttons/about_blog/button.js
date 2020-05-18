@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 function AboutBlogButton() {
   return (
     <button type="button" className={styles.button}>
-      Ver Blog
+      <a className={styles.link} href="https://blog.tunubi.com">Ver Blog</a>
     </button>
   );
 }

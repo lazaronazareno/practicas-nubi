@@ -10,6 +10,12 @@
   width: 30vh;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 2vh 6vh;
+}
+
 @media only screen and (max-device-width: 600px) {
   .button {
     height: 8vh;

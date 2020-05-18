@@ -22,8 +22,24 @@
   transition: 0.4s ease-in-out;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 1vh 5vh;
+}
+
+.linkChange {
+  text-decoration: none;
+  color: $main-blue;
+  padding: 1vh 5vh;
+}
+
 @media only screen and (max-device-width: 600px) {
   .button {
+    display: none;
+  }
+
+  .link {
     display: none;
   }
 }

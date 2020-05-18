@@ -11,6 +11,12 @@
   width: 20vh;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 2vh 5vh;
+}
+
 @media only screen and (max-device-width: 600px) {
   .button {
     font-size: medium;

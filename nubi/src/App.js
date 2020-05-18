@@ -12,8 +12,8 @@ import CheckIn from './Components/CheckIn';
 import Footer from './Components/Footer';
 import Nosotros from './Components/Nosotros/index';
 import Privacidad from './Components/Privacidad/index';
-import Press from './Components/externalPages/enterprise/enterprise';
-import Enterprise from './Components/externalPages/press/press';
+import Enterprise from './Components/externalPages/enterprise/enterprise';
+import Press from './Components/externalPages/press/press';
 import Terms from './Components/externalPages/terms/terms';
 
 function App() {

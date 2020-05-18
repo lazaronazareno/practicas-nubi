@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './styles.module.scss';
 
@@ -13,34 +14,62 @@ class ContainerOne extends React.Component {
           </div>
           <div className={styles.button}>
             <button type="button" className={styles.button1}>
-              Ayuda
+              <a href="https://soporte.tunubi.com/hc/es" className={styles.footerLink}>
+                Ayuda
+              </a>
             </button>
             <button type="button" className={styles.button2}>
-              Terminos y condiciones
+              <Link className={styles.footerLinkT} to="/Terminos">
+                Terminos y condiciones
+              </Link>
             </button>
             <button type="button" className={styles.button3}>
-              Nosotros
+              <Link className={styles.footerLink} to="/Nosotros">
+                Nosotros
+              </Link>
             </button>
             <button type="button" className={styles.button4}>
-              Privacidad
+              <Link className={styles.footerLink} to="/Privacidad">
+                Privacidad
+              </Link>
             </button>
             <button type="button" className={styles.button5}>
-              Nustro Blog
+              <Link className={styles.footerLink} to="/Blog">
+                Nustro Blog
+              </Link>
             </button>
             <button type="button" className={styles.button6}>
-              Prensa
+              <Link className={styles.footerLink} to="/Prensa">
+                Prensa
+              </Link>
             </button>
           </div>
           <div className={styles.logos}>
-            <button type="button" className={styles.button7} />
-            <button type="button" className={styles.button8} />
-            <button type="button" className={styles.button9} />
-            <button type="button" className={styles.button10} />
+            <button type="button" className={styles.button7}>
+              <a className={styles.socialLink} href="http://www.instagram.com/nubiok">
+                |
+              </a>
+            </button>
+            <button type="button" className={styles.button8}>
+              <a className={styles.socialLink} href="http://twitter.com/nubiok">
+                |
+              </a>
+            </button>
+            <button type="button" className={styles.button9}>
+              <a className={styles.socialLink} href="https://www.facebook.com/nubiok">
+                |
+              </a>
+            </button>
+            <button type="button" className={styles.button10}>
+              <a className={styles.socialLink} href="https://www.youtube.com/c/Nubiok">
+                |
+              </a>
+            </button>
           </div>
           <div className={styles.logos2}>
             <div className={styles.Nubi}>
               <a className={styles.link} href="https://www.paypal.com/ar/home">
-                .
+                /
               </a>
             </div>
             <div className={styles.Paypal} />

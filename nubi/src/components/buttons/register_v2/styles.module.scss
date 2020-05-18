@@ -10,6 +10,12 @@
   height: 6vh;
 }
 
+.link {
+  text-decoration: none;
+  color: $main-blue;
+  padding: 1vh 2vh;
+}
+
 .buttonChange{
   background-color: $main-blue;
   border: none;
@@ -22,8 +28,18 @@
   transition: 0.4s ease-in-out;
 }
 
+.linkChange {
+  text-decoration: none;
+  color: white;
+  padding: 1vh 2vh;
+}
+
 @media only screen and (max-device-width: 600px) {
   .button {
+    display: none;
+  }
+
+  .link {
     display: none;
   }
 }

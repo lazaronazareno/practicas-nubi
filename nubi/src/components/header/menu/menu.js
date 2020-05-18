@@ -32,9 +32,9 @@ function Sidebar(props) {
         <Link to="/Nosotros" className={styles.menuText}>
           Nosotros
         </Link>
-        <Link to="/Ayuda" className={styles.menuText}>
+        <a href="https://soporte.tunubi.com/hc/es" className={styles.menuText}>
           Ayuda
-        </Link>
+        </a>
         <Link to="/Prensa" className={styles.menuText}>
           Prensa
         </Link>
