@@ -10,6 +10,11 @@ import Benefits from './Components/Benefits/index';
 import Blog from './Components/Blog/index';
 import CheckIn from './Components/CheckIn';
 import Footer from './Components/Footer';
+import Nosotros from './Components/Nosotros/index';
+import Privacidad from './Components/Privacidad/index';
+import Press from './Components/externalPages/enterprise/enterprise';
+import Enterprise from './Components/externalPages/press/press';
+import Terms from './Components/externalPages/terms/terms';
 
 function App() {
   return (
@@ -30,6 +35,11 @@ function App() {
           <Route exact path="/Retiros" component={Whithdrawals} />
           <Route exact path="/Calculadora" component={Calculadora} />
           <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/Nosotros" component={Nosotros} />
+          <Route exact path="/Prensa" component={Press} />
+          <Route exact path="/Empresa" component={Enterprise} />
+          <Route exact path="/Privacidad" component={Privacidad} />
+          <Route exact path="/Terminos" component={Terms} />
         </Switch>
         <Footer />
       </Router>

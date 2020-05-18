@@ -38,7 +38,11 @@ class ContainerOne extends React.Component {
             <button type="button" className={styles.button10} />
           </div>
           <div className={styles.logos2}>
-            <div className={styles.Nubi} />
+            <div className={styles.Nubi}>
+              <a className={styles.link} href="https://www.paypal.com/ar/home">
+                .
+              </a>
+            </div>
             <div className={styles.Paypal} />
             <p className={styles.text}>Copyrigth © 2017 Nubi S.A</p>
           </div>

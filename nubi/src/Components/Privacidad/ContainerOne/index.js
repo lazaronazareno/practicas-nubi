@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../Assets/Isologo.jpg';
+import Logo from '../../../assets/images/Isologo.jpg';
 
 import styles from './styles.module.scss';
 
@@ -20,7 +20,7 @@ class ContainerOne extends React.Component {
             nosotros ahora.
           </h1>
         </div>
-        <div className={styles.title2}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>Recopilación y uso de datos.</h1>
           <hr className={styles.hr} />
           <p className={styles.text}>
@@ -53,7 +53,7 @@ class ContainerOne extends React.Component {
             personales.
           </p>
         </div>
-        <div className={styles.title2}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>Autorización </h1>
           <hr className={styles.hr} />
           <p className={styles.text}>
@@ -73,7 +73,7 @@ class ContainerOne extends React.Component {
             de recibir información publicitaria por ese medio.
           </p>
         </div>
-        <div className={styles.title3}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>Cookies. </h1>
           <hr className={styles.hr} />
           <p className={styles.text}>
@@ -86,7 +86,7 @@ class ContainerOne extends React.Component {
             utilizando la opción correspondiente a tu navegador y eso no afectará el uso de nuestro sitio.
           </p>
         </div>
-        <div className={styles.title4}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>Confidencialidad de la información</h1>
           <hr className={styles.hr} />
           <p className={styles.text}>
@@ -99,7 +99,7 @@ class ContainerOne extends React.Component {
             responsable por la información que sea revelada.
           </p>
         </div>
-        <div className={styles.title5}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>
             Derechos de acceso, cancelación y rectificación de la información personal.
           </h1>
@@ -118,7 +118,7 @@ class ContainerOne extends React.Component {
             Ante cualquier duda o retificación que desees realizar, podes enviarnos un mail a info@tunubi.com
           </p>
         </div>
-        <div className={styles.title6}>
+        <div className={styles.titles}>
           <h1 className={styles.subtitle}>Cambios en la política de privacidad</h1>
           <hr className={styles.hr} />
           <p className={styles.text}>

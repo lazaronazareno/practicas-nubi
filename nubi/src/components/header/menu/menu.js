@@ -29,16 +29,16 @@ function Sidebar(props) {
         <Link to="/Blog" className={styles.menuText}>
           Blog
         </Link>
-        <Link to="/Us" className={styles.menuText}>
+        <Link to="/Nosotros" className={styles.menuText}>
           Nosotros
         </Link>
-        <Link to="/Help" className={styles.menuText}>
+        <Link to="/Ayuda" className={styles.menuText}>
           Ayuda
         </Link>
-        <Link to="/Press" className={styles.menuText}>
+        <Link to="/Prensa" className={styles.menuText}>
           Prensa
         </Link>
-        <Link to="/Enterpraise" className={styles.menuText}>
+        <Link to="/Empresa" className={styles.menuText}>
           Empresas
         </Link>
       </div>
