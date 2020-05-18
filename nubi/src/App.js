@@ -1,19 +1,19 @@
 import React from 'react';
 
-import styles from './styles.module.scss';
-import Nosotros from './Components/Nosotros';
+import Header from './components/header/header';
+import Calculadora from './components/calculadora/calculadora';
+import Home from './components/home/home';
+import Recargas from './components/recargas/recargas';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
-  render() {
-    return (
-      <div className={styles.App}>
-        <div className={styles.Appheader}>
-          <Nosotros />
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
+    </div>
+  );
 }
 
 export default App;

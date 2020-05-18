@@ -1,3 +1,5 @@
+@import '../../../constants/colors.module.scss';
+
 .cont1 {
   width:100%;
   height: 90vh;
@@ -25,7 +27,7 @@
   top:30%;
   font-size: 50px;
   font-style: oblique;
-  color:#214960;
+  color: $title-darkblue;
 }
 
 .subtitle1 {
@@ -37,7 +39,7 @@
 }
 
 .subtitleOne {
-  color:#5481ff;
+  color: $main-blue;
   font-size: 28px;
   width:84%;
   right: 10%;
@@ -55,18 +57,18 @@
 }
 
 .subtitle {
-  color: rgb(71, 71, 71);  
+  color: $title-darkblue  
 }
 
 .hr {
-  background-color: #53ffc7;
+  background-color: $border-brightblue;
   width: 100%;
   height: 4px;
   border: 0px;
 }
 
 .text {
-  color:#214960;
+  color: $title-darkblue;
   text-align: left;
   font-size: 21px;
 }
@@ -88,7 +90,7 @@
 }
 
 .text2 {
-  color:#5c66f1;
+  color: $main-blue;
   text-align: left;
   font-size: 21px;
 }
